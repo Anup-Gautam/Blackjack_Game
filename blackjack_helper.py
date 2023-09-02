@@ -10,13 +10,13 @@ from random import randint
 #   none
 def print_card_name(card_rank):
   if card_rank == 1:
-    card_name = 'Ace'
+    card_name = 'Ekka'
   elif card_rank == 11:
-    card_name = 'Jack'
+    card_name = 'Gulam'
   elif card_rank == 12:
-    card_name = 'Queen'
+    card_name = 'Missi'
   elif card_rank == 13:
-    card_name = 'King'
+    card_name = 'Badshah'
   else:
     card_name = card_rank
 
